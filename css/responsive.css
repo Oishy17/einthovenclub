@@ -6,7 +6,10 @@
   .hero_area {
     min-height: auto;
   }
-  
+  .footerlogo{
+    height: 200px;
+    
+  }
   .hero_area {
     background: linear-gradient(130deg, #231a6f, #0f054c);
   }
@@ -18,7 +21,7 @@
   .slider_section {
     padding: 45px 0 75px 0;
   }
-  
+
   .custom_nav-container .navbar-nav {
     padding-top: 15px;
     align-items: center;
@@ -34,6 +37,7 @@
 }
 
 @media (max-width: 768px) {
+  
   .about_section .img-box {
     margin-bottom: 45px;
   }
@@ -44,8 +48,10 @@
   .header_section .header_top .contact_nav a span {
     display: none;
   }
-
-
+  .footerlogo{
+    height: 180px;
+    
+  }
   .client_section .client_container {
     width: 100%;
   }
@@ -68,10 +74,17 @@
 }
 
 @media (max-width: 480px) {
+  h2{
+    font-size: 25px;
+    
+  }
+  h5{
+    font-size: 15px;
+  }
   .slider_section .detail-box h1 {
     font-size: 2rem;
   }
-
+  
   .track_section form {
     flex-direction: column;
     align-items: flex-start;
@@ -84,6 +97,10 @@
   .track_section form button {
     padding: 10px 60px;
     margin-top: 10px;
+  }
+  .footerlogo{
+    height: 150px;
+    
   }
 }
 
