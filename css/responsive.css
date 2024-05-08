@@ -13,7 +13,12 @@
   .hero_area {
     background: linear-gradient(130deg, #231a6f, #0f054c);
   }
-
+  .service_section .box{
+   font-size: 12px;
+  }
+  .service_section .box .detail-box h5 {
+    font-size: 17px;
+  }
   .hero_area .hero_bg_box {
     display: none;
   }
@@ -40,6 +45,7 @@
   
   .about_section .img-box {
     margin-bottom: 45px;
+
   }
 
 }
@@ -107,6 +113,7 @@
 @media (max-width: 420px) {
   .service_section .box {
     flex-direction: column;
+    height: 190px;
   }
 
   .service_section .box .img-box {

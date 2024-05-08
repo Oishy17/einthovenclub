@@ -404,72 +404,6 @@ a:focus {
 .service_section {
   position: relative;
 }
-.extra{
-  display: none;
-}
-p{
-  display: inline;
-}
-input[type="checkbox"]{
-  height: 2em;
-  display: block;
-  appearance: none;
-}
-label{
-  position: relative;
-  padding: 1em;
- 
-  color: #000000;
-  cursor: pointer;
-}
-label:before{
-  content: "Read More";
-}
-input[type="checkbox"]:checked ~ label:before{
-  content: "Read Less";
-}
-input[type="checkbox1"]:checked ~ label:before{
-    content: "Read Less";
-}
-.dots:has(~ input[type="checkbox"]:checked){
-  display: none;
-}
-.extra:has(~ input[type="checkbox"]:checked){
-  display: inline;
-}
-
-.extra1{
-  display: none;
-}
-p{
-  display: inline;
-}
-input[type="checkbox1"]{
-  height: 2em;
-  display: block;
-  appearance: none;
-}
-label{
-  position: relative;
-  padding: 1em;
- 
-  color: #000000;
-  cursor: pointer;
-}
-label:before{
-  content: "Read More";
-}
-input[type="checkbox1"]:checked ~ label:before{
-  content: "Read Less";
-}
-.dots:has(~ input[type="checkbox1"]:checked){
-  display: none;
-}
-.extra:has(~ input[type="checkbox1"]:checked){
-  display: inline;
-}
-
-
 
 .service_section .box {
   display: -webkit-box;
@@ -485,9 +419,9 @@ input[type="checkbox1"]:checked ~ label:before{
   text-align: center;
   align-self: normal;
   margin-top: 45px;
-  background-color: #d7dbe3;
+  background-color: #bebacb;
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 .service_section .box .img-box {
@@ -501,8 +435,8 @@ input[type="checkbox1"]:checked ~ label:before{
       -ms-flex-align: start;
           align-items: flex-start;
   
-  min-width: 75px;
-  height: 75px;
+  min-width: 80px;
+  height: 120px;
   margin-bottom: 15px;
 }
 
